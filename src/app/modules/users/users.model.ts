@@ -3,6 +3,7 @@ import IUser from './users.insterface'
 
 type UserModel = Model<IUser, object>
 
+//User Schema
 const userSchema = new Schema<IUser>(
   {
     id: {
